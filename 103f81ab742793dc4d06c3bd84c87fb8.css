@@ -1,0 +1,48 @@
+#button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  background-color: #B22222;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.tooltip {
+  width: 300px;
+  border: 1px solid darkgray;
+  margin-right: 10px;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  padding-bottom: 20px;
+}
+
+.tooltip-title-container {
+  width: 300px;
+  height: 25px;
+  border: 1px solid darkgray;
+  background-color:darkgray;
+  margin-bottom: 10px;
+}
+
+.tooltip-title {
+  margin-left: 5px;
+}
+
+.tooltip-content {
+  margin-left: 5px;
+}
+
+.hidden {
+  display: none;
+}
